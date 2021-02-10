@@ -1,0 +1,52 @@
+﻿[Project]
+FileName=ProTrekkr.dev
+Name=ProTrekkr
+Ver=2
+IsCpp=1
+Type=1
+Compiler=-D__GNUWIN32__ -W -finline-functions -DNDEBUG -D_WINDOWS -D__WINDOWS_MM__ -D__MOT_SWAP__ -D__MP3_CODEC__ -D__AT3_CODEC__ -D__GSM_CODEC__ -D__ADPCM_CODEC__ -D__TRUESPEECH_CODEC___@@_
+CppCompiler=-D__GNUWIN32__ -W -finline-functions -DNDEBUG -D_WINDOWS -D__WINDOWS_MM__ -D__MOT_SWAP__ -D__MP3_CODEC__ -D__AT3_CODEC__ -D__GSM_CODEC__ -D__ADPCM_CODEC__ -D__TRUESPEECH_CODEC___@@_
+Includes=C:\Users\user\Documents\GitHub\protrekkr\src\extralibs
+Linker=-lkernel32 -luser32 -lsdl -ldsound -lmsacm32 -lzlib -lwinmm -ladvapi32 -lsdl_draw -lshlwapi -ltinyxml -lsdlmain -lmsvcrt -llibcp_@@_
+Libs=C:\Users\user\Documents\GitHub\protrekkr\src\extralibs
+UnitCount=0
+Folders="Include""",ProTrekkr,"ProTrekkr/""ProTrekkr",ProTrekkr/Editors,"ProTrekkr/Editors/""Editors",ProTrekkr/Files,"ProTrekkr/Files/""Files",ProTrekkr/Midi,"ProTrekkr/Midi/""Midi",ProTrekkr/Replay,"ProTrekkr/Replay/""Replay",ProTrekkr/Replay/SoundDriver,"ProTrekkr/Replay/SoundDriver/""SoundDriver",ProTrekkr/Samples,"ProTrekkr/Samples/""Samples",ProTrekkr/Samples/Aiff,"ProTrekkr/Samples/Aiff/""Aiff",ProTrekkr/Samples/Wav,"ProTrekkr/Samples/Wav/""Wav",ProTrekkr/Samples/Wavpack,"ProTrekkr/Samples/Wavpack/""Wavpack",ProTrekkr/UI,"ProTrekkr/UI/""UI",SDL,"SDL/""SDL"
+ObjFiles=
+PrivateResource=
+ResourceIncludes=C:\Users\user\Documents\GitHub\protrekkr\src\extralibs
+MakeIncludes=
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=ProTrekkr.exe
+HostApplication=
+UseCustomMakefile=1
+CustomMakefile=makefile.mingw
+CommandLine=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=3
+CompilerSettings=0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;8;0;0;0
+
+[VersionInfo]
+Major=0
+Minor=1
+Release=1
+Build=1
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=0.1.1.1
+FileDescription=Developed using the Embarcadero Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=ProTrekkr.exe
+ProductName=ProTrekkr
+ProductVersion=0.1.1.1
+AutoIncBuildNr=0
+SyncProduct=0
+

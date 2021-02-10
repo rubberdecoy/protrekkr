@@ -31,13 +31,13 @@ IMPLIB    = libzdll.a
 #LOC = -DDEBUG -g
 
 CC = gcc
-CFLAGS = $(LOC) -O3 -Wall
+CFLAGS = $(LOC) -O3 -Wall -m32
 
 AS = $(CC)
-ASFLAGS = $(LOC) -Wall
+ASFLAGS = $(LOC) -Wall -m32
 
 LD = $(CC)
-LDFLAGS = $(LOC) -s
+LDFLAGS = $(LOC) -s -m32
 
 AR = ar
 ARFLAGS = rcs

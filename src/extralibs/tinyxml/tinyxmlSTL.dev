@@ -1,0 +1,69 @@
+[Project]
+FileName=C:\Users\user\Documents\GitHub\protrekkr\src\extralibs\tinyxml\tinyxmlSTL.dev
+Name=tinyxmlSTL
+Ver=2
+IsCpp=1
+Type=2
+Compiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_MBCS -D_LIB -DTIXML_USE_STL 
+CppCompiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_MBCS -D_LIB -DTIXML_USE_STL 
+Includes=
+Linker=
+Libs=
+UnitCount=8
+Folders="Source Files","Header Files"
+[Unit1]
+FileName=./tinystr.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit2]
+FileName=./tinyxml.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit3]
+FileName=./tinyxmlerror.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit4]
+FileName=./tinyxmlparser.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit5]
+FileName=./tinystr.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit6]
+FileName=./tinyxml.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit7]
+FileName=./changes.txt
+Folder=
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit8]
+FileName=./readme.txt
+Folder=
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000

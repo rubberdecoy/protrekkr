@@ -1,0 +1,52 @@
+﻿[Project]
+FileName=SDL_draw.dev
+Name=SDL_draw
+Ver=2
+IsCpp=1
+Type=2
+Compiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_MBCS -D_LIB_@@_
+CppCompiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_MBCS -D_LIB_@@_
+Includes=../include;SDL/include
+Linker=
+Libs=
+UnitCount=0
+Folders="Header Files","Source Files"
+ObjFiles=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=SDL_draw.a
+HostApplication=
+UseCustomMakefile=1
+CustomMakefile=makefile.mingw
+CommandLine=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=3
+CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+
+[VersionInfo]
+Major=0
+Minor=1
+Release=1
+Build=1
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=0.1.1.1
+FileDescription=Developed using the Embarcadero Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=SDL_draw.a
+ProductName=SDL_draw
+ProductVersion=0.1.1.1
+AutoIncBuildNr=0
+SyncProduct=0
+
