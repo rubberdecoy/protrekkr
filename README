@@ -1,10 +1,18 @@
-This repo contains a fork of ProTrekkr, now with linux JACK Audio support.
+This is a fork of ProTrekkr which has not been update in some time. 
 
-see http://code.google.com/p/protrekkr/
+Changes in this repo are:
 
+Nasty makefile hacks to get windows version building
+DevC++ project files resulting from build attempts
 
-To build under linux, simply do:
-$ make -f makefile.linux
+I am not a developer, and this should not be considered a viable fork-point. That said, any pull requests to help this quirky tracker survive would be greatly appreciated!
 
-And then to run:
-$ ./release/distrib/ptk_linux
+Intentions:
+
+UI clean up and enlargment
+Better font
+
+64 bit if it isnt too tricky
+
+Make beats
+
